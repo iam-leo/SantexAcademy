@@ -1,9 +1,22 @@
-
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+#navbar{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 14px 800px;
+    justify-content: space-between;
+}
+
+#navbar-right{
+    display: flex;
+    align-items: center;
 }
 
 p {
@@ -25,6 +38,10 @@ button {
 
 div#navbar-left img {
     width: 8em;
+}
+
+form{
+    margin: 0 300px;
 }
 
 @media (width >= 2500px) {
