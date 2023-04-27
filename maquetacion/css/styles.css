@@ -18,6 +18,11 @@ html {
     margin: 0 auto;
 }
 
+div#navbar-left img {
+    display: flex;
+    align-items: center;
+}
+
 #navbar-left{
     display: flex;
     align-items: center;
@@ -28,11 +33,12 @@ html {
     align-items: center;
 }
 
-p {
-    margin-right: 2em;
-    font-weight: bold;
-    font-size: 0.9em;
+#navbar-right a{
+    padding-right: 35px;
+    color: #201b24;
+    font-size: 0.813em;
     font-weight: 500;
+    text-decoration: none;
 }
 
 button {
@@ -42,10 +48,6 @@ button {
     height: 2.5em;
     border: 2px solid black;
     font-size: 0.8em;
-    width: 8em;
-}
-
-div#navbar-left img {
     width: 8em;
 }
 
