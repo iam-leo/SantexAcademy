@@ -81,9 +81,9 @@ div#navbar-left img {
     padding: 0px;
 }
 
-main{
+/* main{
     padding: 0 30px;
-}
+} */
 
 #header{
     width: 100%;
@@ -119,7 +119,7 @@ h1{
     font-weight: 600;
     letter-spacing: -0.4px;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 35px;
     margin: 10px 0;
     line-height: 34px
 }
@@ -155,6 +155,68 @@ h1{
     border-color: #6b53f0;
 }
 
+section#impacto{
+    color: #fff;
+    background-color: #201B24;
+}
+
+.impacto-container-content{
+    display: flex;
+    justify-content: center;
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 120px 60px 120px;
+}
+
+.impacto-container-content div{
+    width: 33.3%;
+}
+
+.container-title-impacto{
+    margin: 0 50px 0 0;
+}
+
+.container-title-impacto h2{
+    font-size: 30px;
+    margin: 10px 0 15px;
+}
+
+.container-title-impacto p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.container-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-numbers div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.data-number-impacto{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.data-number-impacto span{
+    font-size: 30px;
+    font-weight: 400;
+    color: #6b53f0;
+}
+
+.data-number-text{
+    color: #8c939c;
+    font-size: 14px;
+}
 @media (width >= 2500px) {
     html {
         font-size: 28px;
