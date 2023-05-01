@@ -217,6 +217,19 @@ section#impacto{
     color: #8c939c;
     font-size: 14px;
 }
+
+#img-team{
+    background-color: rgba(255, 255, 255, 0);
+    background: url('/maquetacion/imgs/twp-home.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: solid;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 80px);
+}
+
 @media (width >= 2500px) {
     html {
         font-size: 28px;
