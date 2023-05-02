@@ -17,6 +17,8 @@ body{
     width: 100%;
     padding: 0 30px;
     border-bottom: 1px solid #8C939C;
+    position: fixed;
+    background: #fff;
 }
 
 #navbar{
@@ -490,15 +492,18 @@ section#alianzas{
     width: 25%;
     font-size: 12px;
     font-weight: 400;
+    line-height: 18px;
 }
 
 .container-enlaces-footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 5px;
 }
 
 .container-enlaces-footer a{
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 600;
