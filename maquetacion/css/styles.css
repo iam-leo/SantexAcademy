@@ -231,20 +231,20 @@ section#impacto{
     height: calc(100vh - 80px);
 }
 
-#container-programas{
+#container-programas, #container-capacitaciones{
     padding: 90px 30px;
 }
 
-.container-content-programs{
+.container-content-programs, .container-content-capacitaciones{
     max-width: 1248px;
     margin: 0 auto 35px;
 }
 
-.container-content-programs h2{
+.container-content-programs h2, .container-content-capacitaciones h2{
     padding-left: 25px;
 }
 
-.grid-container-programs {
+.grid-container-programs, .grid-container-capacitaciones {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -252,17 +252,25 @@ section#impacto{
     padding: 0 50px;
   }
 
-.img-xacademy{
+.img-xacademy, .img-estafas{
     width: 576px;
     height: 384px;
-    background-image: url('/maquetacion/imgs/xacademy-01.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0 40px 40px 40px;
 }
 
-.container-xacademy, .container-robotica{
+.img-xacademy{
+    background-image: url('/maquetacion/imgs/xacademy-01.jpg');
+}
+
+.img-estafas{
+    background-image: url('/maquetacion/imgs/estafas-virtuales.jpg');
+}
+
+.container-xacademy, .container-robotica,
+.container-estafas, .container-seguridad{
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -272,7 +280,8 @@ section#impacto{
     padding: 0 20px;
 }
 
-.container-xacademy p, .container-robotica p{
+.container-xacademy p, .container-robotica p,
+.container-estafas p, .container-seguridad p{
     color: #201b24;
     font-size: 14px;
     line-height: 21px;
@@ -293,14 +302,21 @@ section#impacto{
     width: 200px;
 }
 
-.img-robotica{
+.img-robotica, .img-seguridad{
     width: 576px;
     height: 384px;
-    background-image: url('/maquetacion/imgs/robotica-educativa.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 40px 40px 0 40px;
+}
+
+.img-robotica{
+    background-image: url('/maquetacion/imgs/robotica-educativa.jpg');
+}
+
+.img-seguridad{
+    background-image: url('/maquetacion/imgs/seguridad-informatica-para-infancias.jpg');
 }
 
 .mas-info{
