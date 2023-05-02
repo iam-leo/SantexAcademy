@@ -335,7 +335,8 @@ section#impacto{
 
 }
 
-section#equipo{
+section#equipo,
+section#alianzas{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,7 +345,8 @@ section#equipo{
     padding: 70px 30px;
 }
 
-.container-content-equipo{
+.container-content-equipo,
+.container-content-alianzas{
     width: 1248px;
     padding-left: 50px;
 }
@@ -404,8 +406,63 @@ section#equipo{
     text-decoration: none;
 
   }
-  
 
+  section#alianzas{
+    background-color: #fff;
+  }
+
+  .containter-info-alianzas{
+    width: 100%;
+    position: relative;
+  }
+  
+  .grid-empresas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 0 30px;
+    position: relative;
+    z-index: 100;
+  }
+
+  .empresa img{
+    width: 200px;
+    filter: grayscale(100%);
+    opacity: .5;
+  }
+
+  .empresa img:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  /* .empresa{
+    margin-left: 10px;
+  } */
+  .container-btns-slide{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  .container-btns-slide i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8C939C;
+    background-color: #201B24;
+    opacity: .5;
+    cursor: pointer;
+  }
 @media (width >= 2500px) {
     html {
         font-size: 28px;
