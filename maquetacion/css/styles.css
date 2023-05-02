@@ -176,9 +176,10 @@ section#impacto{
     margin: 0 50px 0 0;
 }
 
-.container-title-impacto h2{
+/* .container-title-impacto */ h2{
     font-size: 30px;
     margin: 10px 0 15px;
+    letter-spacing: -0.4px;
 }
 
 .container-title-impacto p{
@@ -228,6 +229,94 @@ section#impacto{
     background-size: cover;
     background-attachment: fixed;
     height: calc(100vh - 80px);
+}
+
+#container-programas{
+    padding: 90px 30px;
+}
+
+.container-content-programs{
+    max-width: 1248px;
+    margin: 0 auto 35px;
+}
+
+.container-content-programs h2{
+    padding-left: 25px;
+}
+
+.grid-container-programs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 0 50px;
+  }
+
+.img-xacademy{
+    width: 576px;
+    height: 384px;
+    background-image: url('/maquetacion/imgs/xacademy-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 40px 40px 40px;
+}
+
+.container-xacademy, .container-robotica{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 30px;
+    padding: 0 20px;
+}
+
+.container-xacademy p, .container-robotica p{
+    color: #201b24;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px 0px 5px;
+}
+
+.container-robotica{
+    padding-right: 0;
+}
+
+.container-robotica h3{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.container-xacademy img{
+    width: 200px;
+}
+
+.img-robotica{
+    width: 576px;
+    height: 384px;
+    background-image: url('/maquetacion/imgs/robotica-educativa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px 40px 0 40px;
+}
+
+.mas-info{
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #201B24;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+    outline: none;
+    border: 2px solid #201B24;
+    border-radius: 20px;
+
 }
 
 @media (width >= 2500px) {
