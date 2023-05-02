@@ -463,6 +463,62 @@ section#alianzas{
     opacity: .5;
     cursor: pointer;
   }
+
+  footer{
+    color: #d9d9d9;
+    background-color: #201b24;
+    padding: 60px 30px 40px;
+    position: relative;
+}
+
+.container-info-footer{
+    width: 1248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-info-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-info-content p{
+    width: 25%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container-enlaces-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.container-enlaces-footer a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: #d9d9d9;
+}
+
+.to-up{
+    width: 48px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313132;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 75px;
+    cursor: pointer;
+}
+
 @media (width >= 2500px) {
     html {
         font-size: 28px;
