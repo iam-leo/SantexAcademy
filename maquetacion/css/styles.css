@@ -335,6 +335,77 @@ section#impacto{
 
 }
 
+section#equipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F5;
+    padding: 70px 30px;
+}
+
+.container-content-equipo{
+    width: 1248px;
+    padding-left: 50px;
+}
+
+.grid-equipo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .card {
+    width: 264px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 0;
+  }
+
+  .card img{
+    width: 264px;
+    object-fit: fill;
+  }
+
+  .container-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+  }
+
+  .container-info h3{
+    font-size: 20px;
+    letter-spacing: -0.4px;
+  }
+  
+  .container-info p{
+    color: #8c939c;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    margin-bottom: 5px;
+  }
+
+  .container-info a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    font-size: 13px;
+    color: #201B24;
+    border: 2px solid #201B24;
+    border-radius: 50%;
+    text-decoration: none;
+
+  }
+  
+
 @media (width >= 2500px) {
     html {
         font-size: 28px;
